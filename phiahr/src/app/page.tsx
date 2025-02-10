@@ -1,5 +1,8 @@
 "use client"
 
+import './globals.css'; // Ensure this is imported in _app.tsx
+
+
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";

@@ -1,14 +1,14 @@
 "use client"
 import { Github, Linkedin, Mail } from "lucide-react";
-import Image from 'next/image'
+// import Image from 'next/image'
 
 const Hero = () => {
     return (
       <section className="min-h-screen flex items-center justify-center pt-16">
         <div className="container flex flex-col items-center text-center">
           <div className="w-48 h-48 rounded-full overflow-hidden mb-8">
-            <Image
-              src="profile.jpeg"
+            <img
+              src="/profile.jpeg"
               alt="Profile"
               className="w-full h-full object-cover"
             />
