@@ -9,7 +9,7 @@
     "lint": "next lint",
     "sync:root": "rsync -r out/ ../ && touch ../.nojekyll",
     "deploy:gh-pages": "gh-pages -d out",
-    "deploy": "npm run build && npm run sync:root && git -C .. add .nojekyll index.html 404.html 404 _next favicon.ico profile.jpeg index.txt && git -C .. status --short"
+    "deploy": "npm run build && npm run sync:root && git -C .. add .nojekyll index.html 404.html 404 _next favicon.ico profile.jpeg index.txt phiahr/src phiahr/public phiahr/next.config.ts phiahr/package.json phiahr/package-lock.json && (git -C .. diff --cached --quiet || (git -C .. commit -m \"deploy: update site\" && git -C .. push origin main)) && git -C .. status --short"
   },
   "dependencies": {
     "lucide-react": "^0.474.0",

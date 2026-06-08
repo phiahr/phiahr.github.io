@@ -13,7 +13,7 @@ const Hero = () => {
             />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Philipp Ahrendt</h1>
-          <h2 className="text-xl md:text-2xl text-primary mb-4">Software Engineer</h2>
+          <h2 className="text-xl md:text-2xl text-primary mb-4">Machine Learning Engineer</h2>
         <div className="flex justify-center gap-8">
           <a
             href="mailto:ph.ahrendt@gmail.com"

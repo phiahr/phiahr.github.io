@@ -5,14 +5,17 @@ const About = () => {
                 <h2 className="text-3xl font-bold mb-8">About Me</h2>
                 <div className="prose prose-invert max-w-none">
                     <p className="text-lg leading-relaxed mb-6">
-                        Hi! I am a software engineer with experience across machine learning, computer vision, and distributed systems. I enjoy building systems that bridge research and practical engineering, especially when they can solve meaningful real-world challenges.
+                        Hi! I am a machine learning engineer with a particular interest in distributed training and efficient model deployment. I enjoy turning ideas from recent research into robust, production-oriented tooling.
 
                     </p>
                     <p className="text-lg leading-relaxed mb-6">
-                        I currently work at SEMRON, where I design and build modular R&D systems for geographically distributed training and LLM quantization research. My recent work includes orchestration and scheduling components for cross-region ML workloads as well as experimentation frameworks for benchmarking quantization methods from current literature.
+                        At SEMRON, I design and build modular R&D infrastructure for geographically distributed ML across heterogeneous hardware. My work includes orchestration, communication, and scheduling components for cross-region workloads, with a focus on making large-scale experimentation reliable and reproducible.
                     </p>
                     <p className="text-lg leading-relaxed mb-6">
-                        Before SEMRON, I worked on altitude-adaptive object detection for UAVs at Flox Robotics, extended German-language voice assistant capabilities at SoundHound, and built software in both startup and robotics environments.
+                        A major part of my current work is LLM quantization research: implementing and evaluating methods from recent literature, benchmarking trade-offs between quality, latency, and memory footprint, and building extensible frameworks that accelerate iteration on new quantization ideas.
+                    </p>
+                    <p className="text-lg leading-relaxed mb-6">
+                        Previously, I worked on altitude-adaptive object detection for UAVs at Flox Robotics and on natural language capabilities at SoundHound, experiences that shaped how I approach applied ML from both research and engineering perspectives.
                     </p>
                     <p className="text-lg leading-relaxed mb-6">
                         I hold a double-degree MSc in Intelligent Autonomous Systems from KTH Royal Institute of Technology and Polytech Nice Sophia, and a BSc in Electrical Engineering and Computer Science from Karlsruhe Institute of Technology.
