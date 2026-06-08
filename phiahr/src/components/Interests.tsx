@@ -1,7 +1,7 @@
 const Interests = () => {
     const interests = [
+        { name: "Machine Learning", link: "https://github.com/phiahr/aether" },
         { name: "Robotics", link: "https://github.com/phiahr/robotic-crane" },
-        { name: "Machine Learning", link: "https://github.com/phiahr/OpenSesame" },
         { name: "Computer Vision", link: "https://github.com/phiahr/Altitude-Adaptive-Object-Detection" },
         { name: "Control", link: "https://github.com/phiahr/robotic-crane" }, // You can adjust this link accordingly
     ];

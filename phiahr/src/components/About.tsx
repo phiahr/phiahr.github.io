@@ -5,20 +5,20 @@ const About = () => {
                 <h2 className="text-3xl font-bold mb-8">About Me</h2>
                 <div className="prose prose-invert max-w-none">
                     <p className="text-lg leading-relaxed mb-6">
-                        Hi! I am a robotics and AI engineer with a passion for building intelligent systems that bridge traditional engineering with modern machine learning techniques. I hold a master&apos;s degree in Autonomous Systems and Intelligent Robots from KTH Royal Institute of Technology and Polytech Nice Sophia, where my thesis focused on altitude-adaptive methods to enhance small object detection on UAVs.
+                        I am a software engineer with experience across machine learning, computer vision, and distributed systems. I enjoy building systems that bridge research and practical engineering, especially when they can solve meaningful real-world challenges.
 
                     </p>
                     <p className="text-lg leading-relaxed mb-6">
-                        Most recently, I worked as a Research Engineer at Flox Robotics, where I developed techniques to incorporate UAV altitude information into object detection models, improving precision and significantly optimizing model efficiency. Prior to that, I contributed to natural language processing advancements at SoundHound and co-founded Ayrendoo, a social meetup app with location-based features, group chat functionality, and a scalable backend infrastructure.
+                        I currently work at SEMRON, where I design and build modular R&D systems for geographically distributed training and LLM quantization research. My recent work includes orchestration and scheduling components for cross-region ML workloads as well as experimentation frameworks for benchmarking quantization methods from current literature.
                     </p>
                     <p className="text-lg leading-relaxed mb-6">
-                        My interests lie at the intersection of robotics, machine learning and control. I enjoy solving challenging problems in perception, planning, and control for autonomous systems. Some of my recent projects have included designing a 4DoF robotic crane simulator with real-time 3D visualization and developing a speaker recognition system for secure access control.
+                        Before SEMRON, I worked on altitude-adaptive object detection for UAVs at Flox Robotics, extended German-language voice assistant capabilities at SoundHound, and built software in both startup and robotics environments.
                     </p>
                     <p className="text-lg leading-relaxed mb-6">
-                        I earned my bachelor&apos;s degree in Electrical Engineering and Computer Science from Karlsruhe Institute of Technology, where I researched brain-computer interfaces for detecting higher cognitive functions.
+                        I hold a double-degree MSc in Intelligent Autonomous Systems from KTH Royal Institute of Technology and Polytech Nice Sophia, and a BSc in Electrical Engineering and Computer Science from Karlsruhe Institute of Technology.
                     </p>
                     <p className="text-lg leading-relaxed">
-                        Outside of work, I&apos;m an avid tennis player and always on the lookout for new skills to learn. I&apos;m driven by curiosity and a desire to build systems that push boundaries and have a real-world impact.
+                        Outside of engineering, I enjoy tennis, effective altruism, and continuously learning new skills.
 
                     </p>
                 </div>

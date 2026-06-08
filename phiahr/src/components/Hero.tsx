@@ -1,6 +1,5 @@
 "use client"
 import { Github, Linkedin, Mail } from "lucide-react";
-// import Image from 'next/image'
 
 const Hero = () => {
     return (
@@ -14,10 +13,10 @@ const Hero = () => {
             />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Philipp Ahrendt</h1>
-          <h2 className="text-xl md:text-2xl text-primary mb-8">Autonomy Engineer </h2>
-          {/* <p className="text-lg text-muted-foreground max-w-2xl">
-            Brief introduction about yourself and your expertise. Make it compelling and concise.
-          </p> */}
+          <h2 className="text-xl md:text-2xl text-primary mb-4">Software Engineer</h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mb-8">
+            Software engineer focused on machine learning, computer vision, and distributed systems, with a strong interest in translating research into real-world impact.
+          </p>
         <div className="flex justify-center gap-8">
           <a
             href="mailto:ph.ahrendt@gmail.com"
