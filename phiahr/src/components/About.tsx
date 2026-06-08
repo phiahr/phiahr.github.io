@@ -5,7 +5,7 @@ const About = () => {
                 <h2 className="text-3xl font-bold mb-8">About Me</h2>
                 <div className="prose prose-invert max-w-none">
                     <p className="text-lg leading-relaxed mb-6">
-                        I am a software engineer with experience across machine learning, computer vision, and distributed systems. I enjoy building systems that bridge research and practical engineering, especially when they can solve meaningful real-world challenges.
+                        Hi! I am a software engineer with experience across machine learning, computer vision, and distributed systems. I enjoy building systems that bridge research and practical engineering, especially when they can solve meaningful real-world challenges.
 
                     </p>
                     <p className="text-lg leading-relaxed mb-6">
