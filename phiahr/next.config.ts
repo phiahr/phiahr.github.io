@@ -6,7 +6,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,  // Ensures images work during export
   },
-  assetPrefix: '/phiahr',
   trailingSlash: true, // Adds a slash to the end of every route for compatibility
 
 };

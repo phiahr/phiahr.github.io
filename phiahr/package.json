@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d out"
+    "sync:root": "rsync -r out/ ../ && touch ../.nojekyll",
+    "deploy:gh-pages": "gh-pages -d out",
+    "deploy": "npm run build && npm run sync:root && git -C .. add .nojekyll index.html 404.html 404 _next favicon.ico profile.jpeg index.txt && git -C .. status --short"
   },
   "dependencies": {
     "lucide-react": "^0.474.0",
